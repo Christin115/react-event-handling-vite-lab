@@ -4,13 +4,13 @@ import PasswordInput from './PasswordInput'
 import SubmitButton from './SubmitButton'
 
 function App() {
-
   return (
     <div>
-      <PasswordInput/>
-      <SubmitButton/>
+      <h1>Password Tracker</h1>
+      <PasswordInput />
+      <SubmitButton />
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
